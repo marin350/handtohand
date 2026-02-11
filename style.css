@@ -1,0 +1,100 @@
+:root {
+  --yellow: rgb(225, 255, 0);
+}
+body{
+    background-color: black;
+    color: ivory;
+    font-family: "clarendon-urw-extra-narrow", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    overflow-x: hidden;
+
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button{
+    background-color: black;
+    border: none;
+    color: ivory;
+    font-family: "clarendon-urw-extra-narrow", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    padding: 0;
+}
+
+li:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    gap: 74%;
+}
+
+.underline{
+    width: 100%;
+    margin-top: 1%;
+}
+footer{
+    text-align: center;
+    position: relative;
+    margin-bottom: 2%;
+    margin-top: 5%;
+
+}
+
+
+/* CHAT */
+.imgs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 4rem;
+}
+  
+.sari img {
+    width: 100%;
+    display: block;
+}
+  
+.meta {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+  
+.weave {
+    opacity: 0.8;
+    line-height: 99%;
+}
+  
+.notes {
+    margin-top: 0.5rem;
+    opacity: 0.6;
+    line-height: 99%;
+}
+  
+
+li.active {
+    color: var(--yellow);
+  }
+
+#no-results{
+    text-align: center;
+}
