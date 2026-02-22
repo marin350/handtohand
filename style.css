@@ -58,15 +58,14 @@ section {
     padding-top: 5rem;
 }
 .openingtext {
-  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 20rem;
   text-align: justify;
   opacity: 0; 
-  left: -16%;
-  position: relative;
+  left: -17.5%;
   top: -10%;
+  position: relative;
   animation-name: text;
   animation-duration: 3.5s;
   animation-delay: 3.5s; 
@@ -79,21 +78,14 @@ section {
 
 
 /* SVG */
-#Layer_2{
-    width: 500px;
-    position: relative;
-    top: -10%;
-}
 #Layer_1{
-  width: 250px;
-  position: relative;
-  left: 5%;
-  top: -1%;
+    width: 60%;
+    position: relative;
+    top: -2%;
 }
 
 .small-title{
   width: 50%;
-
 }
 
 .small-text{
